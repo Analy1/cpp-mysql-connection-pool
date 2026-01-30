@@ -1,0 +1,5 @@
+﻿  main.cpp
+E:\Code\project\数据库连接池\数据库连接池\Connection.h(32,35): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+  (编译源文件“main.cpp”)
+  
+  数据库连接池.vcxproj -> E:\Code\project\数据库连接池\x64\Debug\数据库连接池.exe
