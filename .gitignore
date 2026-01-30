@@ -1,0 +1,96 @@
+# ================================
+# C++ MySQL连接池项目 .gitignore
+# ================================
+
+# 编译输出
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.lib
+*.dylib
+*.pdb
+*.idb
+
+# 可执行文件
+connection_pool
+connection_pool.exe
+test_pool
+test_pool.exe
+
+# IDE文件
+.vscode/
+.idea/
+*.code-workspace
+*.vcxproj
+*.sln
+Debug/
+Release/
+x64/
+x86/
+*.suo
+*.user
+*.filters
+cmake-build-*/
+
+# 编辑器临时文件
+*.swp
+*.swo
+*~
+*.bak
+*.orig
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+._*
+.Spotlight-V100
+.Trashes
+
+# 日志和调试
+*.log
+*.tmp
+*.temp
+core
+core.*
+*.core
+
+# 依赖和包管理
+deps/
+third_party/
+*.jar
+*.war
+
+# 文档生成
+docs/_build/
+docs/_site/
+*.chm
+*.pdf   # 如果你不想上传PDF文档的话（注释掉这一行可以上传PDF）
+
+# 数据库相关（本地测试文件）
+test.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# 个人配置（实际密码不应上传）
+# 保留 mysql.cnf 作为示例，但实际密码配置不要上传
+# config.ini
+# secrets.json
+
+# 在.gitignore中添加这些
+echo "" >> .gitignore
+echo "# Visual Studio 临时文件" >> .gitignore
+echo ".vs/" >> .gitignore
+echo "*.ipch" >> .gitignore
+echo "*.sdf" >> .gitignore
+echo "*.opendb" >> .gitignore
+echo "*.VC.db" >> .gitignore
+echo "Debug/" >> .gitignore
+echo "Release/" >> .gitignore
+echo "x64/" >> .gitignore
+echo "x86/" >> .gitignore
