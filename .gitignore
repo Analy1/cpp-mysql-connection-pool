@@ -69,7 +69,6 @@ third_party/
 docs/_build/
 docs/_site/
 *.chm
-*.pdf   # 如果你不想上传PDF文档的话（注释掉这一行可以上传PDF）
 
 # 数据库相关（本地测试文件）
 test.db
@@ -77,20 +76,6 @@ test.db
 *.sqlite3
 *.db-journal
 
-# 个人配置（实际密码不应上传）
-# 保留 mysql.cnf 作为示例，但实际密码配置不要上传
+# 个人配置
 # config.ini
 # secrets.json
-
-# 在.gitignore中添加这些
-echo "" >> .gitignore
-echo "# Visual Studio 临时文件" >> .gitignore
-echo ".vs/" >> .gitignore
-echo "*.ipch" >> .gitignore
-echo "*.sdf" >> .gitignore
-echo "*.opendb" >> .gitignore
-echo "*.VC.db" >> .gitignore
-echo "Debug/" >> .gitignore
-echo "Release/" >> .gitignore
-echo "x64/" >> .gitignore
-echo "x86/" >> .gitignore
